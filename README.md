@@ -39,7 +39,7 @@ A fully interactive, high-performance directory, file, and parameter fuzzing too
 ```bash
 git clone https://github.com/manojxshrestha/ffufx.git
 cd ffufx
-chmod +x fuff.sh
+chmod +x ffuf.sh
 ````
 
 ---
@@ -47,7 +47,7 @@ chmod +x fuff.sh
 ### 🚀 Usage
 
 ```bash
-./fuff.sh
+./ffuf.sh
 ```
 
 Follow the interactive prompts to:
