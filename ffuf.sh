@@ -118,7 +118,7 @@ main() {
         -H "X-Originating-IP: 127.0.0.1" \
         -H "X-Forwarded-Host: localhost" \
         -t 100 \
-        -mc 200,204,301,302,307,401 \
+        -mc 200,204,301,302,307 \
         -o ffufresults.html -of html; then
 
         echo -e "${GREEN}[+] Scan complete. Results saved to ${YELLOW}ffufresults.html${NC}"
